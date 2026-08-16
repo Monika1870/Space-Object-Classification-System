@@ -309,9 +309,6 @@ The application was successfully deployed on an **AWS EC2 (Amazon Linux)** insta
 
 - Retrain the model using updated SATCAT data.
 - Include additional orbital parameters.
-- Explore Deep Learning models for improved accuracy.
-- Integrate satellite tracking and visualization features.
-- Develop REST APIs for external applications.
 
 ---
 
