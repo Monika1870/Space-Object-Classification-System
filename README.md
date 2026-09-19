@@ -1,16 +1,16 @@
-# 🚀 Space Object Classification System using Machine Learning
+# Space Object Classification System using Machine Learning
 
 A Machine Learning-based web application that classifies space objects into different categories using orbital and operational parameters from the **SATCAT (Satellite Catalog)** dataset. The project compares multiple classification algorithms, selects the best-performing model through hyperparameter tuning, and deploys the application using **Flask** on **AWS EC2** for real-time predictions.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 With the rapid increase in satellites, rocket bodies, and space debris, manually identifying space objects has become difficult and time-consuming. This project automates the classification process using Machine Learning, providing faster and more accurate predictions through an interactive web application.
 
 ---
 
-## 🎯 Objective
+## Objective
 
 To develop a complete end-to-end Machine Learning system that:
 
@@ -22,7 +22,7 @@ To develop a complete end-to-end Machine Learning system that:
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 **Dataset:** SATCAT (Satellite Catalog)
 
@@ -39,7 +39,7 @@ The dataset contains information about artificial space objects, including satel
 
 ---
 
-## 🎯 Target Classes
+## Target Classes
 
 The model classifies space objects into four categories:
 
@@ -50,7 +50,7 @@ The model classifies space objects into four categories:
 
 ---
 
-## 📥 Final Input Features
+## Final Input Features
 
 The model uses the following features for prediction:
 
@@ -67,7 +67,7 @@ The model uses the following features for prediction:
 
 ---
 
-# ⚙️ Project Workflow
+# Project Workflow
 
 ### 1. Data Preprocessing
 
@@ -146,7 +146,7 @@ The Flask application was successfully deployed on an AWS EC2 Linux instance for
 
 ---
 
-# 🤖 Machine Learning Models Compared
+# Machine Learning Models Compared
 
 | Model | Accuracy |
 |--------|----------|
@@ -159,7 +159,7 @@ The Flask application was successfully deployed on an AWS EC2 Linux instance for
 
 ---
 
-# 🏆 Final Model Performance
+# Final Model Performance
 
 | Metric | Score |
 |---------|-------|
@@ -172,7 +172,7 @@ The Random Forest classifier achieved the best overall performance after hyperpa
 
 ---
 
-# 🛠 Technologies Used
+# Technologies Used
 
 ### Programming Language
 
@@ -206,7 +206,7 @@ The Random Forest classifier achieved the best overall performance after hyperpa
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```text
 Space-Object-Classification-System/
@@ -229,7 +229,7 @@ Space-Object-Classification-System/
 
 ---
 
-# 🚀 Installation
+# Installation
 
 Clone the repository:
 
@@ -264,7 +264,7 @@ http://127.0.0.1:5000
 ---
 
 
-# 📦 Model File
+# Model File
 
 The trained model (`space_object_classifier.pkl`) is **not included** in this repository because its file size exceeds GitHub's upload limit.
 
@@ -280,7 +280,7 @@ These files are then used by the Flask application for real-time predictions.
 
 ---
 
-# 📸 Application Screenshots
+# Application Screenshots
 
 ### Home Page
 
@@ -292,7 +292,7 @@ These files are then used by the Flask application for real-time predictions.
 
 ---
 
-# 🌍 Deployment
+# Deployment
 
 The application was successfully deployed on an **AWS EC2 (Amazon Linux)** instance using **Flask**.
 
@@ -305,14 +305,14 @@ The application was successfully deployed on an **AWS EC2 (Amazon Linux)** insta
 
 ---
 
-# 🔮 Future Improvements
+# Future Improvements
 
 - Retrain the model using updated SATCAT data.
 - Include additional orbital parameters.
 
 ---
 
-# 👩‍💻 Author
+# Author
 
 **Monika Gautam**
 
